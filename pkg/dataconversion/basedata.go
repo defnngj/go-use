@@ -21,3 +21,11 @@ func StringToIntSlice(str string, sep string) ([]int, error) {
 
 	return res, nil
 }
+
+func Int64SliceToStringSlice(source []int64) []string {
+	var res []string
+	for _, s := range source {
+		res = append(res, strconv.FormatInt(s, 10))
+	}
+	return res
+}

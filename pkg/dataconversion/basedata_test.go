@@ -12,3 +12,12 @@ func TestStringToIntSlice(t *testing.T) {
 	}
 	t.Logf("%s to -> %d", str, ret)
 }
+
+func TestInt64SliceToStringSlice(t *testing.T) {
+	var intList []int64
+	intList = append(intList, 1)
+	intList = append(intList, 2)
+	intList = append(intList, 3)
+	ret := Int64SliceToStringSlice(intList)
+	t.Logf("%d to -> %s", intList, ret)
+}
