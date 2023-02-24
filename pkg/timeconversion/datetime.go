@@ -7,3 +7,11 @@ func DateTimeToTimestamp(dataTime string) int64 {
 	timeUnix := timestamp.Unix()
 	return timeUnix
 }
+
+func CheckTimeout(timestamp int64, second int64) bool {
+	nowTime := time.Now().Unix()
+	if nowTime-timestamp > second {
+		return true
+	}
+	return false
+}
