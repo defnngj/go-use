@@ -1,0 +1,26 @@
+{
+  "testCases": [
+    {
+      "id": "The Ultimate Question",
+      "input": {
+        "question": "What do you get when you multiply six by nine?",
+        "timeoutInHours": 65700000000,
+        "config": {"base": 13}
+      },
+      "expected": {
+        "answer": "42",
+        "error": null
+      }
+    },
+    {
+      "id": "Ask Again",
+      "input": {
+        "question": "?",
+        "timeoutInHours": 65700000000
+      },
+      "expected": {
+        "answer": "42"
+      }
+    }
+  ]
+}

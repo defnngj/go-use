@@ -1,0 +1,13 @@
+mode: set
+D:\github\go-use\testtools\base\func.go:9.34,12.14 3 1
+D:\github\go-use\testtools\base\func.go:21.2,22.12 2 1
+D:\github\go-use\testtools\base\func.go:12.14,14.3 1 1
+D:\github\go-use\testtools\base\func.go:14.8,14.21 1 1
+D:\github\go-use\testtools\base\func.go:14.21,16.3 1 1
+D:\github\go-use\testtools\base\func.go:16.8,16.21 1 1
+D:\github\go-use\testtools\base\func.go:16.21,18.3 1 1
+D:\github\go-use\testtools\base\func.go:18.8,20.3 1 1
+D:\github\go-use\testtools\base\func.go:26.39,30.2 3 0
+D:\github\go-use\testtools\base\func.go:33.46,34.12 1 0
+D:\github\go-use\testtools\base\func.go:38.2,38.19 1 0
+D:\github\go-use\testtools\base\func.go:34.12,36.3 1 0
