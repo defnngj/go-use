@@ -6,6 +6,8 @@ Write less go lang code, right out of the box.
 
 * Testify： https://github.com/stretchr/testify
 
-* apitest: github.com/steinfletcher/apitest
+* tester: https://github.com/voicera/tester
 
-* apitest-jsonpath:	github.com/steinfletcher/apitest-jsonpath
+* apitest: https://github.com/steinfletcher/apitest
+
+* apitest-jsonpath:	https://github.com/steinfletcher/apitest-jsonpath
