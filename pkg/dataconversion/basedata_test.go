@@ -2,6 +2,8 @@ package dataconversion
 
 import (
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestStringToIntSlice(t *testing.T) {
@@ -13,11 +15,18 @@ func TestStringToIntSlice(t *testing.T) {
 	t.Logf("%s to -> %d", str, ret)
 }
 
-func TestInt64SliceToStringSlice(t *testing.T) {
-	var intList []int64
-	intList = append(intList, 1)
-	intList = append(intList, 2)
-	intList = append(intList, 3)
-	ret := Int64SliceToStringSlice(intList)
-	t.Logf("%d to -> %s", intList, ret)
+func TestInIntList(t *testing.T) {
+	intList := []int{1, 2, 3, 4, 5}
+	i := 3
+	ret := InIntList(i, intList)
+	t.Logf("%d to -> %d", i, intList)
+	assert.Equal(t, ret, true)
+}
+
+func TestInStrList(t *testing.T) {
+	intList := []string{"apple", "banana", "peach", "watermelon", "orange"}
+	s := "peach"
+	ret := InStrList(s, intList)
+	t.Logf("%s to -> %s", s, intList)
+	assert.Equal(t, ret, true)
 }
