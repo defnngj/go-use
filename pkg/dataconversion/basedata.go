@@ -29,3 +29,21 @@ func Int64SliceToStringSlice(source []int64) []string {
 	}
 	return res
 }
+
+func InIntList(numberToFind int, integerList []int) bool {
+	for _, number := range integerList {
+		if number == numberToFind {
+			return true
+		}
+	}
+	return false
+}
+
+func InStrList(strToFind string, strList []string) bool {
+	for _, number := range strList {
+		if number == strToFind {
+			return true
+		}
+	}
+	return false
+}
